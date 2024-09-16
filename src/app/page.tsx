@@ -1,6 +1,7 @@
 import FeatureSection from "./components/FeatureSection/FeatureSection";
 import GallerySection from "./components/GallerySection/GallerySection";
 import HeroBanner from "./components/HeroBanner/HeroBanner";
+import InformationSection from "./components/InformationSection/InformationSection";
 import StatisticsSection from "./components/StatisticsSection/StatisticsSection";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <FeatureSection></FeatureSection>
       <GallerySection></GallerySection>
       <StatisticsSection></StatisticsSection>
+      <InformationSection></InformationSection>
   </div>
   );
 }
